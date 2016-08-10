@@ -1,0 +1,99 @@
+.cardcoupons{
+	padding: 4%;
+	li{
+		position: relative;
+		border-radius: 10px;
+		margin-top: 14px;
+		background-color: #f8f8f8;
+		overflow: hidden;
+		color: #979797;
+		.name{
+			position: absolute;
+			width: 22px;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			text-align: center;
+			color: #fff;
+			background-color: #e0dede;
+			span{
+				display: inline-block;
+				vertical-align: middle;
+				width: 0;
+				height: 100%;
+			}
+			p{
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+		.type{
+			position: absolute;
+			top: 8px;
+    		right: -20px;
+			width: 80px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			color: #9c9c9c;
+			font-size: 13px;
+			background-color: #e0dede;
+			-webkit-transform-origin: 50% 50%;
+			-webkit-transform: rotate(45deg)
+		}
+		.con-l,
+		.con-r{
+			display: inline-block;
+			vertical-align: top;
+			padding: 8px;
+			width: 50%;
+		}
+		.con-l{
+			padding-left: 30px;
+		}
+		.line{
+			width: 0;
+			position: absolute;
+			top: 25px;
+			bottom: 25px;
+			left: 50%;
+			border-left: 1px dashed #979797;
+			> span{
+				position: absolute;
+				left: -5px;
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background-color: #f0f0f0;
+				&.st{	
+					top: -30px;
+				}
+				&.sb{
+					bottom: -30px;
+				}
+			}
+		}
+		.money{
+			font-weight: bold;
+			line-height: 40px;
+			font-size: 40px;
+		}
+		time{
+			display: block;
+			margin-top: 10px;
+		}
+		&.stay{
+			.name{
+				background-color: @c-f-red;
+			}
+			.con-l{
+				color: @c-f-red;
+			}
+			.type{
+				color: #fff;
+				background-color: @c-f-red;
+			}
+		}
+	}
+}

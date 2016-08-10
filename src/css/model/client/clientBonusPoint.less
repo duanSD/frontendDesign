@@ -1,0 +1,141 @@
+.client-box{
+    .client{
+        .client-line1{
+            width: 936px;
+            height: 105px;
+            float: left;
+            margin-bottom: 12px;
+            display: block;
+            .client-line2{
+                width: 840px;
+                height: 105px;
+                float: left;
+                display: block;
+                .client-logo-dev{
+                    width: 80px;
+                    height: 80px;
+                    display: block;
+                    float: left;
+                    margin-right: 18px;
+                    img{
+                        width:80px;
+                        height:80px;
+                        border-radius:50%;
+                        overflow:hidden;
+                    }
+                }
+                span{
+                    width:500px;
+                    height: 15px;
+                    font-size: 14px;
+                    float: left;
+                    line-height: 15px;
+                    margin-bottom: 18px;
+                    i{
+                        width: 14px;
+                        height: 14px;
+                        float: left;
+                        margin-right: 5px;
+                    }
+                    .clientSlip{
+                        margin: 0px 5px;
+                    }
+                    p{
+                        float: left;
+                    }
+                    .pointLogo{
+                        background: url("@{img}/icons/pointLogo.png") no-repeat left center;
+                    }
+                    .pointTelephone{
+                        background: url("@{img}/icons/pointTelephone.png") no-repeat left center;
+                    }
+                }
+            }
+            .client-return{
+                width: 90px;
+                height: 105px;
+                float: left;
+                span{
+                    width:90px;
+                    height: 15px;
+                    font-size: 14px;
+                    float: left;
+                    line-height: 15px;
+                    cursor:pointer;
+                    i{
+                        width: 13px;
+                        height: 15px;
+                        float: left;
+                        margin-right: 5px;
+                        background: url("@{img}/icons/pointReturn.png") no-repeat left center;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+.tab-lable{
+    width: 100%;
+    thead{
+        th{
+            padding: 16px 10px;
+            border: 1px solid #e5e5e5;
+            background-color: #f2f9ff;
+        }
+    }
+    tbody{
+        td{
+            text-align: center;
+            padding: 16px 10px;
+            border: 1px solid #e5e5e5;
+        }
+    }
+    .action{
+        .event{
+            cursor: pointer;
+            margin-right: 8px;
+            color: @c-f-orange;
+            &.default{
+                color: #ccc;
+                cursor: default;
+            }
+        }
+    }
+}
+.tab-fans{
+    width: 95%;
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    thead{
+        th{
+            color: #333;
+            line-height: 50px;
+            padding: 0 0px;
+            background-color: #f2f9ff;
+        }
+    }
+    tbody{
+        td{
+            border-top: 2px solid #f7f7f7;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+    thead th,tbody td{
+        border-right: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+}
+.add-allfans{
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 18px;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid #ffb889;
+    background-color: #fdf7e8;
+}

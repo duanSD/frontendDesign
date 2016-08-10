@@ -1,0 +1,103 @@
+/**
+ * 定义头样式
+ * @by songyunalu
+ */
+.ui-header{
+	margin-bottom: 42px;
+	height: 60px;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+	background: #f7f7f7;
+	.logo{
+		float: left;
+	}
+	.content{
+		margin: 0 auto;
+		width: 1140px;
+		padding: 0 40px 0 20px;
+	}
+	.nav-header{
+		float: left;
+//		padding-top: 40px;
+		padding-left: 50px;
+	  	margin-top: 20px;
+	}
+	.account-header{
+		float: right;
+		padding-top: 20px;
+	}
+}
+.nav-header{
+	font-size: 18px;
+	li{
+		float: left;
+		line-height: 20px;
+		margin-right: 60px;
+	}
+	a{
+		&.on,
+		&:hover{
+			color: #d70500;
+		}
+	}
+}
+.account-header{
+	color: @c-f-orange;
+	font-size: 12px;
+	line-height: 20px;
+	.head-login{
+		float: left;
+		display: none;
+		a{
+			line-height: 20px;
+			margin-left: 10px;
+		}
+	}
+	.head-user{
+		float: left;
+		display: none;
+	}
+	.shop-name{
+		float: left;
+		margin:0 20px 0 0;
+		
+	}
+	.set{
+		position: relative;
+		float: left;
+		cursor: pointer;
+		i{
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 8px;
+			margin-left: 2px;
+			width: 0;
+			height: 0;
+			border-top: 4px solid @c-f-orange;
+			border-right: 4px solid transparent;
+			border-left: 4px solid transparent;
+		}
+		&:hover{
+			.set-data{
+				display: block;
+			}
+		}
+	}
+	.set-data{
+		display: none;
+		width: 76px;
+		position: absolute;
+		right: -5px;
+		top: 18px;
+		border-right: 2px solid #f0f0f0;
+		border-bottom: 2px solid #f0f0f0;
+		border-left: 2px solid #f0f0f0;
+		background: #f7f7f7;
+		a{
+			display: block;
+			text-align: center;
+			line-height: 26px;
+			margin-top: 4px;
+		}
+	}
+}

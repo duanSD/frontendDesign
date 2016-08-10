@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>登录</title>
+    <meta name="keywords" content="淘猪宝">
+    <meta name="description" content="淘猪宝">
+<link rel="shortcut icon" href="/dist/favicon.ico"></head>
+<body ms-controller="login">
+    <div class="head-account h-login">
+        <div class="view-main fn-c">
+            <i class="icon logo"></i>
+        </div>
+    </div>
+    <div class="login-bg">
+        <div class="view-main">
+            <div class="form-login">
+                <div class="t"></div>
+                <div class="content">
+                    <h1>淘猪宝登录</h1>
+                    <p class="login-tips" id="tips"></p>
+                    <form ms-validate="@validateLogin">
+                    <div>
+                        <input type="text" class="i-text-0" maxlength="11" ms-duplex-string="@username" id="username"
+                               name="username"
+                               ms-duplex="@username"
+                               ms-rules="{required:true}"
+                               data-required-message="请输入登录账号/手机"
+                               placeholder="请输入登录账号/手机">
+                    </div>
+                    <div>
+                        <input class="i-text-0" id="password"
+                               name="password"
+                               type="password"
+                               ms-duplex="@password"
+                               ms-rules="{required:true}"
+                               data-required-message="请输入登录密码"
+                               placeholder="请输入登录密码">
+                    </div>
+                    <div class="login-cookie">
+                        <label><input type="checkbox"  ms-duplex="@memberName" class="cookie" value="1" id="auto">三天内自动登录</label>
+                    </div>
+                    <div class="btn-submit-red fn-c" id="submit">
+                        <span class="btn-l"></span>
+                        <span class="btn-r"></span>
+                        <div class="btn-c"><input type="submit" value="马上登录"/></div>
+                    </div>
+                    </form>
+                    <div class="links fn-c">
+                        <a class="fn-l" href="register.html" title="我要注册">我要注册</a>
+                        <a class="fn-r" href="forget.html" title="忘记密码">忘记密码</a>
+                    </div>
+                </div>
+                <div class="b"></div>
+            </div>
+        </div>
+    </div>
+    <xmp ms-widget="[{is:'ms-footerAccount'}]"></xmp>
+<script type="text/javascript" src="/dist/js/vendors.js?c60b675abe369d5813e8"></script><script type="text/javascript" src="/dist/js/account/login.js?c60b675abe369d5813e8"></script></body>
+</html>

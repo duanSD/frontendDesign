@@ -1,0 +1,107 @@
+.page-1{
+	float: right;
+	font-size: 12px;
+	margin-top: 30px;
+	line-height: 20px;
+	.page-list{
+		float: left;
+		padding: 0 5px;
+		li{
+			float: left;
+			line-height: 20px;
+		}
+		span[data-page="num"]{
+			display: inline-block;
+			width: 16px;
+			text-align: center;
+		}
+	}
+	.btn-prev,
+	.btn-next{
+		float: left;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+	}
+	.btn-prev{
+		background: url('@{img}/icons/btn-prev.png') no-repeat center center;
+	}
+	.btn-next{
+		background: url('@{img}/icons/btn-next.png') no-repeat center center;
+	}
+	.page-all{
+		float: left;
+		margin-left: 5px;
+	}
+}
+.page-2{
+	float: right;
+	margin-top: 20px;
+	line-height: 26px;
+	.page-list{
+		float: left;
+		li{
+			float: left;
+			margin: 0 7px;
+			width: 24px;
+			height: 24px;
+			line-height: 24px;
+			text-align: center;
+			color: #2e3740;
+			border-radius: 2px;
+			cursor: pointer;
+			border: 1px solid #e5e5e5;
+			background-color: #fff;
+			&.on{
+				cursor: default;
+				color: #fff;
+				border: 1px solid @c-f-red;
+				background-color: @c-f-red;
+			}
+		}
+	}
+	.btn-prev,
+	.btn-next{
+		float: left;
+		width: 24px;
+		height: 24px;
+		cursor: pointer;
+	}
+	.btn-prev{
+		background: url('@{img}/icons/btn-prev-2.png') no-repeat center center;
+	}
+	.btn-next{
+		background: url('@{img}/icons/btn-next-2.png') no-repeat center center;
+	}
+	.page-all{
+		float: left;
+		padding: 0 10px;
+	}
+	.page-go{
+		float: left;
+		input{
+			margin: 0 4px;
+			width: 24px;
+			height: 24px;
+			line-height: 24px;
+			text-align: center;
+			color: #2e3740;
+			border-radius: 2px;
+			border: 1px solid #e5e5e5;
+			background-color: #fff;
+		}
+		.btn-go{
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			line-height: 24px;
+			text-align: center;
+			margin-left: 4px;
+			color: #fff;
+			border-radius: 2px;
+			cursor: pointer;
+			border: 1px solid @c-f-red;
+			background-color: @c-f-red;
+		}
+	}
+}

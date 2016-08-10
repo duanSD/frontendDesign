@@ -1,0 +1,50 @@
+{
+  "name": "frontendDesign",
+  "version": "1.0.0",
+  "description": "基于avalon2的组件库",
+  "main": "index.html",
+  "scripts": {
+    "start": "node dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duanSD/Avalon2UI.git"
+  },
+  "keywords": [
+    "frontendDesign",
+    "frontend"
+    ,"Design"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duanSD/Avalon2UI/issues"
+  },
+  "homepage": "https://github.com/duanSD/Avalon2UI#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "ejs": "^2.4.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "glob": "^7.0.3",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.19.0",
+    "jquery-compat": "^3.0.0-alpha1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "avalon2": "^2.0.9",
+    "express": "^4.14.0",
+    "express-http-proxy": "^0.7.2",
+    "log4js": "^0.6.38"
+
+  }
+}

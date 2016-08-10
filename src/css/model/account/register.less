@@ -1,0 +1,71 @@
+.form-register{
+	width: 620px;
+	padding-top: 50px;
+	margin: 0 auto;
+	dl{
+		margin-top: 20px;
+		dt{
+			float: left;
+			width: 120px;
+			padding-right: 10px;
+			line-height: 38px;
+			text-align: right;
+		}
+		dd{
+			float: left;
+			width: 240px;
+			&.v-text{
+				height: 38px;
+				margin-left: 10px;
+				span{
+					display: inline-block;
+					vertical-align: middle;
+					width: 0;
+					height: 100%;
+				}
+			}
+		}
+	}
+	.i-tel{
+		input{
+			float: left;
+			width: 96px;
+			padding: 0 12px;
+			height: 38px;
+		}
+		.btn-code{
+			float: left;
+			cursor: pointer;
+			width: 119px;
+			height: 36px;
+			text-align: center;
+			line-height: 36px;
+			color: #fff;
+			font-size: 13px;
+			margin-top: 1px;
+			border-left: 1px solid #ccc;
+			background: #ff8533;
+			&.default{
+				background: #ccc;
+			}
+		}
+	}
+	.agreement{
+		margin-top: 8px;
+	}
+	.btn-submit-orange{
+		input.btn-c{
+			cursor: pointer;
+			width: 232px;
+		}
+	}
+}
+.register-ok{
+	display: none;
+	padding-top: 150px;
+	text-align: center;
+	font-size: 24px;
+	a{
+		color: @c-f-orange;
+	}
+}

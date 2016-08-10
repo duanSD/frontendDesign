@@ -1,0 +1,415 @@
+.zijian-d{
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  font-size: 12px;
+  margin-bottom: 20px;
+  clear: both;
+  .yj-d{
+    b{
+      display: block;
+      width: 96%;
+      padding: 10px 0;
+      margin: 0 auto;
+      font-weight: normal;
+      label{margin-right: 40px;cursor: pointer}
+      table{
+        tr{
+          td{
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #e5e5e5;
+            input[type="text"]{
+              border: 1px solid #e5e5e5;
+              height: 26px;
+              border-radius: 2px;
+              width: 100px;
+              padding: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .zijian-d-top{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    &>div{
+      width: 88px;
+      height: 50px;
+      line-height: 50px;
+      color: #b00000;
+      font-weight: bold;
+      text-align: center;
+      position: relative;
+      border-left: 1px solid #cfbfb1;
+      border-right: 1px solid #cfbfb1;
+      &>span{
+        display: block;
+        width: 100px;
+        height:50px;
+        line-height: 50px;
+        position: absolute;
+        right: -100px;
+        top: 0;
+        label{cursor: pointer}
+      }
+      img{
+        position: absolute;
+        top: -1px;
+        left: -1px;
+      }
+    }
+  }
+  .zijian-pro{
+    height: 40px;
+    line-height: 40px;
+    &>span{
+      margin-right: 20px;
+    }
+    &>input{
+      margin-left: 20px;
+    }
+  }
+  &>table{
+    width: 800px;
+    margin: 20px 10px 20px 20px;
+    border: 1px solid #e5e5e5;
+    tr{
+      th,td{
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #e5e5e5;
+        text-align: center;
+        position: relative;
+        &>span{
+          display: block;
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          border: 1px solid #e5e5e5;
+          font-size: 18px;
+          position: absolute;
+          cursor: pointer;
+        }
+        .zijian-add-1{
+          top: 5px;
+          right: -30px;
+        }
+        .zijian-add-2{
+          top: 5px;
+          right: -60px;
+        }
+        &>input{
+          width: 90%;
+          height: 26px;
+          border: 1px solid #CCCCCC;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  #staticAttr{
+    width: 90%;
+    /*min-height: 150px;*/
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  #commodityAttr {
+    width: 90%;
+    /*min-height: 150px;*/
+    margin: 0 auto;
+  }
+  &>ul{
+      li{
+        display: inline-block;
+        width: 30%;
+        height: 32px;
+        line-height: 32px;
+        float: left;
+        margin-bottom: 20px;
+        &>span{
+          display: inline-block;
+          float: left;
+          width: 100px;
+          text-align: right;
+          b{color: #ff6600}
+        }
+        &>input,&>select{
+          width: 150px;
+          height: 30px;
+          border: 1px solid #e5e5e5;
+        }
+      }
+  }
+  .zijian-select{
+    display: block;
+    padding: 20px;
+    &>span{
+      display: inline-block;
+      float: left;
+      width: 80px;
+      min-height: 20px;
+      line-height: 20px;
+      text-align: right;
+      margin:0 20px 20px 0;
+      padding: 10px;
+      position: relative;
+      &>span{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: #999999;
+      }
+      &>strong{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      &>b{
+        display: inline-block;
+        width: 14px;
+        height: 10px;
+        background-image: url("@{img}/account-1/icons.png");
+        background-position: 0 -314px;
+        /*background-position: 0 -327px;*/
+        position: absolute;
+        top: 13px;
+        left: 10px;
+      }
+    }
+  }
+  .zijian-img{
+    width: 900px;
+    height: 150px;
+    margin: 20px 18px;
+    &>ul{
+      li{
+        width: 155px;
+        height: 155px;
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+        position: relative;
+        float: left;
+        margin:0 0  20px 20px;
+        &>span{
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          background-image: url("@{img}s/account-1/icons.png");
+          background-position: 0 -55px;
+          position: absolute;
+          top: -12px;
+          right: -12px;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+          background-size: contain;
+        }
+      }
+    }
+  }
+  .zijian-img-text{
+    width: 864px;
+    margin: 0 auto;
+    height: 50px;
+    &>span{
+      display: inline-block;
+      float: left;
+      width: 480px;
+      color: #999999;
+    }
+    &>p{
+      display: inline-block;
+      width: 300px;
+      float: right;
+      text-align: right;
+      &>span{
+        display: inline-block;
+        width: 100%;
+        color: #ff6600;
+        input{
+          margin-right: 10px;
+        }
+      }
+      &>b{
+        font-weight: normal;
+        color: #999999;
+        font-size: 10px;
+      }
+    }
+  }
+  .zijian-btn{
+    width: 864px;
+    margin: 20px auto;
+    input{
+      width: 120px;
+      height: 30px;
+      border-radius: 4px;
+      text-align: center;
+      line-height: 30px;
+      color: #fff;
+      background: #960500;
+    }
+  }
+}
+
+.add-footer-btn p{
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding: 20px 0;
+  input[type="button"]{
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .add-dy{background: #b00000;}
+  .add-fh{background: #ccc;}
+}
+
+.move-img{
+  width: 100%;
+  min-height: 450px;
+  .move-img-l{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    float: left;
+    &>div{
+      width: 100%;
+      height: 300px;
+      img{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+      }
+    }
+    &>p{
+      display: block;
+      width: 100%;
+      height: 100px;
+      &>span{
+        display: inline-block;
+        float: left;
+        width: 70px;
+        margin-left:8px;
+        img{
+          width: 100%;
+          height: 100%;
+          background-size: contain;
+        }
+      }
+    }
+  }
+  .move-img-r{
+    width: 760px;
+    height: 400px;
+    display: inline-block;
+    float: right;
+    &>table{
+      tr{
+        td{
+          width: 250px;
+          text-align: center;
+          line-height: 36px;
+          height: 36px;
+          border: 1px solid #ccc;
+        }
+      }
+    }
+    &>p{
+      width: 100%;
+      text-align: left;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+}
+
+.order-pro-ul{
+  width: 100%;
+  &>ul{
+    width: 100%;
+    height: 160px;
+    &>li{
+      display: inline-block;
+      float: left;
+      width: 33%;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+    }
+  }
+}
+.order-pro-table{
+  width: 100%;
+  &>table{
+    width: 100%;
+    tr{
+      th{
+        width: 20%;
+        height: 50px;
+        background: #f8f8f8;
+        border-bottom:1px solid #e5e5e5;
+      }
+      td{
+        width: 20%;
+        height: 100px;
+        text-align: center;
+        border-bottom:1px solid #e5e5e5;
+        &>div{
+          width: 90px;
+          height: 60px;
+          margin: 0 auto;
+          img{
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+          }
+        }
+      }
+    }
+  }
+  &>b{
+    display: block;
+    width: 96%;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+    text-align: right;
+    color: #db0700;
+    font-size: 16px;
+  }
+}
+.return-save-btn{
+  width: 100%;
+  height: 50px;
+  padding: 20px 0;
+  #save1,#save2{
+    width: 120px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  #save1{background: #960500;}
+  #save2{background: #ff6600;}
+}

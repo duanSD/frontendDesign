@@ -1,0 +1,79 @@
+.forget{
+	width: 480px;
+	margin: 0 auto;
+	padding-top: 20px;
+	.tips-ok{
+		.icon-ok1{
+			margin-top: 2px;
+			margin-right: 10px;
+		}
+		font-size: 18px;
+		color: @c-f-orange;
+	}
+	.form-register{
+		padding-top: 30px;
+	}
+}
+.forget-step{
+	li{
+		float: left;
+		width: 160px;
+		text-align: center;
+		.line{
+			height: 5px;
+			background: @c-f-gray;
+			position: relative;
+		}
+		p{
+			color: @c-f-gray;
+			margin-top: 25px;
+		}
+		.icon-setp{
+			width: 24px;
+			height: 24px;
+			font-size: 14px;
+			line-height: 24px;
+			color: #fff;
+			position: absolute;
+			top: 50%;
+			margin-top: -12px;
+			left: 50%;
+			margin-left: -12px;
+			background: url('@{sprite-img}/icons/5.png');
+			.icon-ok{
+				margin-top: 6px;
+			}
+		}
+		&.on{
+			.line{
+				background: @c-f-orange;
+			}
+			p{
+				color: @c-f-orange;
+			}
+			.icon-setp{
+				font-size: 18px;
+				background: url('@{sprite-img}/icons/6.png');
+			}
+		}
+		&.ok{
+			.line{
+				background: @c-f-orange2;
+			}
+			p{
+				color: @c-f-orange2;
+			}
+			.icon-setp{
+				background: url('@{sprite-img}/icons/7.png');
+			}
+		}
+	}
+}
+.forget-3{
+	text-align: center;
+	padding-top: 45px;
+	.btn-submit-orange{
+		width: 132px;
+		margin: 30px 0 0 100px;
+	}
+}
